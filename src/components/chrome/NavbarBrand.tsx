@@ -12,7 +12,8 @@ function NavbarMole({
   delay: number;
   lean: "left" | "right";
 }) {
-  const reduceMotion = useReducedMotion();
+  "use no memo";
+  const reduceMotion = useReducedMotion() === true;
   const peek = lean === "left" ? -6 : 6;
 
   return (
@@ -22,7 +23,7 @@ function NavbarMole({
     >
       <motion.span
         className="absolute bottom-0 left-1/2 block size-10 sm:size-11"
-        initial={false}
+        initial={{ x: "-50%", y: 44, rotate: 0 }}
         animate={
           reduceMotion
             ? { x: "-50%", y: 14, rotate: peek / 2 }

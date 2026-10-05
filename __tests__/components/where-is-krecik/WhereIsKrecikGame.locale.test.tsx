@@ -39,6 +39,9 @@ describe("WhereIsKrecikGame locale", () => {
     expect(
       screen.getByText("Krecik starts at B2. Ready when you are!"),
     ).toBeInTheDocument();
+    expect(screen.getByText("Set up")).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Expand panel" }));
     expect(screen.getByText("Set up the board")).toBeInTheDocument();
     expect(
       screen.getByRole("button", { name: "Start round" }),
@@ -67,6 +70,9 @@ describe("WhereIsKrecikGame locale", () => {
     expect(
       screen.getByText("Krecik startuje z B2. Możesz zaczynać!"),
     ).toBeInTheDocument();
+    expect(screen.getByText("Ustawienia")).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Rozwiń panel" }));
     expect(screen.getByText("Ustaw planszę")).toBeInTheDocument();
     expect(
       screen.getByRole("button", { name: "Rozpocznij rundę" }),
