@@ -4,14 +4,9 @@
 
 /**
  * Phase panel body. The frame (border, background, rounding) comes from the
- * surrounding shell — the floating panel on large screens, an inline card
- * below the board on small ones — so the content only lays itself out.
+ * surrounding floating-panel shell, so the content only lays itself out.
  */
 export const PANEL = "flex w-full flex-col gap-4 p-3 sm:p-4";
-
-/** Inline shell used when the panel is not floating: same frame as the board. */
-export const INLINE_SHELL =
-  "rounded-2xl border border-lime-300/70 bg-lime-50 shadow-sm dark:border-lime-500/20 dark:bg-lime-950/50";
 
 /** A lighter "cell" inside the panel that holds controls or text. */
 export const CELL =
