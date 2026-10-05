@@ -112,10 +112,7 @@ export function WhereIsKrecikGame() {
       className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-6 sm:px-6 lg:py-10"
     >
       <header className="text-center">
-        <h1 className="text-3xl font-semibold tracking-tight text-lime-950 sm:text-4xl dark:text-lime-50">
-          {t("page.title")}
-        </h1>
-        <p className="mt-1.5 text-sm text-lime-900/70 sm:text-base dark:text-lime-100/70">
+        <p className="text-sm text-lime-900/70 sm:text-base dark:text-lime-100/70">
           {state.gamePhase === "setup" &&
             (state.startingPosition
               ? t("page.setupReady", {
@@ -138,9 +135,7 @@ export function WhereIsKrecikGame() {
         shakeKey={shakeKey}
       />
 
-      <KrecikFloatingPanel phase={state.gamePhase}>
-        {panel}
-      </KrecikFloatingPanel>
+      <KrecikFloatingPanel phase={state.gamePhase}>{panel}</KrecikFloatingPanel>
     </main>
   );
 }

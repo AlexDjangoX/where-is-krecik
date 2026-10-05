@@ -10,6 +10,9 @@ const localePattern = languages.join("|");
 const nextConfig: NextConfig = {
   cacheComponents: true,
   reactCompiler: true,
+  experimental: {
+    globalNotFound: true,
+  },
   async redirects() {
     return [
       {

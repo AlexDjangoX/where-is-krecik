@@ -1,0 +1,208 @@
+{
+  "button": "Filozofia",
+
+  "title": "Filozofia",
+
+  "description": "Dlaczego gramy z zamkniętymi oczami i jak to działa.",
+
+  "tocLabel": "W tym przewodniku",
+
+  "toc": {
+    "why": "Dlaczego gramy w ten sposób",
+    "ritual": "Przebieg gry na lekcji",
+    "setup": "Przygotowanie rundy",
+    "moves": "Jak porusza się Krecik",
+    "growing": "Zwiększanie trudności",
+    "board": "Plansza",
+    "controls": "Sterowanie"
+  },
+
+  "intro": {
+    "p1": "To gra klasowa oparta na koncentracji, wizualizacji i orientacji przestrzennej. Najpierw uczniowie obserwują, jak Krecik przemieszcza się od jednej norki do drugiej, aż zrozumieją zasady działania planszy. Następnie zamykają oczy, wyobrażają sobie ogród i śledzą jego ruchy, kierując się wyłącznie tym, co słyszą.",
+    "p2": "Po określonej liczbie ruchów nauczyciel pyta: <strong>Gdzie jest Krecik?</strong>",
+    "p3": "Całe wyzwanie rozgrywa się w głowie ucznia. Uczniowie ćwiczą koncentrację, wyobraźnię, orientację przestrzenną oraz umiejętność śledzenia zmieniającego się obrazu w pamięci bez patrzenia. Nie ma tu czasu na wynik, punktów ani zwycięzcy. Klasa po prostu sprawdza, kto nadal potrafi ustalić, gdzie znajduje się Krecik.",
+    "mole": "Krecik to <link>Krtek</link> — po polsku <em>Krecik</em> — mały czeski bohater kreskówki, który mieszka pod ziemią. Plansza przedstawia jego ogród z trawą, norkami, kamieniami i tunelami, które czasem przenoszą go w inne miejsce."
+  },
+
+  "why": {
+    "title": "Dlaczego gramy w ten sposób",
+
+    "visualisation": {
+      "title": "Wizualizacja",
+      "body": "Po zamknięciu oczu plansza przestaje być czymś, na co uczniowie mogą patrzeć, i staje się obrazem, który muszą zapamiętać. Zamiast śledzić postać na ekranie, tworzą obraz w swojej wyobraźni i aktualizują go po każdym ruchu."
+    },
+
+    "logic": {
+      "title": "Logika",
+      "body": "W ogrodzie obowiązuje kilka prostych i stałych zasad: osiem kierunków ruchu, wyraźne granice planszy, kamienie, które trzeba przeskoczyć, oraz tunele przenoszące Krecika z jednej norki do drugiej. Uczniowie muszą pamiętać te zasady i stosować je, śledząc jego drogę."
+    },
+
+    "mindfulness": {
+      "title": "Uważność i koncentracja",
+      "body": "Zadanie jest proste i prawie nic nie rozprasza uwagi: głos nauczyciela, kolejne kierunki i Krecik poruszający się po wyobrażonym ogrodzie. Przez krótką chwilę uczniowie skupiają się tylko na jednej rzeczy. Jeśli ich uwaga gdzieś ucieknie, mogą stracić Krecika z oczu — a właściwie z wyobraźni. Powrót do pytania <em>gdzie on jest teraz?</em> jest częścią tego ćwiczenia."
+    },
+
+    "imagination": {
+      "title": "Najpierw wyobraźnia, potem ekran",
+      "body": "Program jest narzędziem wspierającym nauczyciela. Zapamiętuje prawdziwą pozycję Krecika, nie pozwala wykonać niedozwolonych ruchów i w odpowiednim momencie pokazuje odpowiedź. Najważniejsza część zadania odbywa się jednak w wyobraźni uczniów, zanim ponownie spojrzą na ekran."
+    }
+  },
+
+  "ritual": {
+    "title": "Przebieg gry na lekcji",
+
+    "open": {
+      "title": "Najpierw gramy z otwartymi oczami",
+      "p1": "Włącz opcję <strong>Pokazuj Krecika przy każdym ruchu</strong> i pozwól klasie obserwować, jak się porusza.",
+      "p2": "Uczniowie widzą, jak Krecik przechodzi z norki do norki, przeskakuje kamienie i wychodzi z tuneli. Dzięki temu najpierw tworzą sobie wyraźny obraz ogrodu, który później będą mogli odtworzyć w wyobraźni z zamkniętymi oczami. Tryb demonstracyjny służy do poznania zasad gry przed rozpoczęciem gry z pamięci.",
+      "p3": "Na pierwszą demonstrację najlepiej użyć pustej planszy 3×3. Kamień lub tunel warto dodać dopiero wtedy, gdy klasa swobodnie radzi sobie z podstawowymi ruchami Krecika."
+    },
+
+    "close": {
+      "title": "Potem zamykamy oczy",
+      "lead": "Przed rozpoczęciem właściwej rundy:",
+      "steps": {
+        "1": "Wszyscy po raz ostatni patrzą na planszę — na norkę startową, kamienie i tunele.",
+        "2": "Nauczyciel prosi uczniów, aby <strong>zamknęli oczy</strong> i wyobrazili sobie ogród.",
+        "3": "Krecik zostaje ukryty na ekranie poprzez wyłączenie trybu demonstracyjnego. Nauczyciel nadal widzi planszę, ale uczniowie już na nią nie patrzą.",
+        "4": "Nauczyciel rozpoczyna rundę."
+      }
+    },
+
+    "listen": {
+      "title": "Słuchaj i śledź Krecika w wyobraźni",
+      "p1": "Nauczyciel wykonuje każdy ruch i <strong>mówi kierunek na głos</strong>: <em>w górę</em>, <em>w dół i w prawo</em>, <em>w lewo</em>. Uczniowie nie patrzą na przyciski sterowania. Zamiast tego przesuwają Krecika po ogrodzie w swojej wyobraźni.",
+      "p2": "Po każdym poleceniu uczniowie aktualizują obraz w swojej głowie. Gdzie jest teraz? Czy na jego drodze znajduje się kamień? Czy norka prowadzi do tunelu? Jeśli ruch wyprowadziłby go poza planszę, Krecik się nie porusza i zostaje tam, gdzie był.",
+      "p3": "Na tym polega sedno gry: utrzymać obraz ogrodu w pamięci, aktualizować pozycję Krecika i nie podglądać."
+    },
+
+    "ask": {
+      "title": "„Gdzie jest Krecik?”",
+      "p1": "Po odpowiedniej liczbie ruchów — na początku mogą to być trzy, a z czasem znacznie więcej — nauczyciel zadaje pytanie.",
+      "p2": "Uczniowie otwierają oczy i mówią, w której norce ich zdaniem znajduje się Krecik, na przykład B3 albo F6. Następnie nauczyciel naciska <strong>Pokaż Krecika</strong>. Krecik pojawia się w norce, do której rzeczywiście dotarł. Panel pokazuje również jego współrzędne, liczbę prawidłowo wykonanych ruchów oraz przebytą trasę w formie strzałek.",
+      "p3": "Pokazanie odpowiedzi służy sprawdzeniu obrazu, który uczniowie mieli w głowie, a nie tworzeniu rankingu. Warto zapytać: <em>w którym momencie wasza wyobrażona trasa przestała zgadzać się z prawdziwą?</em> Można potem powtórzyć tę samą rundę w trybie demonstracyjnym, aby wszyscy zobaczyli trasę, którą próbowali śledzić w pamięci."
+    }
+  },
+
+  "setup": {
+    "title": "Przygotowanie rundy",
+    "p1": "Podczas przygotowania rundy wszyscy widzą Krecika. Na początku znajduje się on w środkowej norce — B2 na planszy 3×3. Nauczyciel może:",
+    "actions": {
+      "1": "zwiększyć lub zmniejszyć planszę — od 3×3 do 10×10",
+      "2": "wybrać inną norkę startową",
+      "3": "umieścić kamienie na wybranych norkach",
+      "4": "utworzyć tunele, klikając najpierw wejście, a potem wyjście"
+    },
+    "p2": "Kamienie i tunele są opcjonalne. Norka startowa jest oznaczona bursztynową obwódką, dzięki czemu wszyscy dokładnie wiedzą, gdzie zaczyna Krecik.",
+    "p3": "Następnie zamykamy oczy, wyłączamy tryb demonstracyjny i rozpoczynamy rundę.",
+    "againTitle": "Trzy sposoby na kontynuowanie gry po pokazaniu odpowiedzi",
+
+    "again": {
+      "replay": {
+        "button": "Powtórz grę",
+        "keeps": "Zachowaj tę samą planszę i tę samą pozycję startową, a następnie powtórz dokładnie tę samą trasę. Jest to szczególnie przydatne przy włączonym trybie demonstracyjnym, ponieważ uczniowie mogą zobaczyć drogę, którą wcześniej śledzili tylko w wyobraźni."
+      },
+
+      "round": {
+        "button": "Nowa runda",
+        "keeps": "Zachowaj te same kamienie i tunele. Norka startowa również pozostaje bez zmian, chyba że wybierzesz inną."
+      },
+
+      "game": {
+        "button": "Nowa gra",
+        "keeps": "Rozpocznij od nowa z pustym ogrodem 3×3 i Krecikiem na środku."
+      }
+    }
+  },
+
+  "moves": {
+    "title": "Jak porusza się Krecik",
+    "p1": "Współrzędne działają podobnie jak w arkuszu kalkulacyjnym: kolumny <strong>A–J</strong> biegną od lewej do prawej, a wiersze <strong>1–10</strong> od góry do dołu. Na planszy 3×3 pole B2 znajduje się na środku.",
+    "p2": "Krecik może poruszać się w ośmiu kierunkach: w górę, w dół, w lewo, w prawo oraz po czterech przekątnych. Jedno naciśnięcie zwykle przesuwa go o jedną norkę, chyba że na drodze znajduje się kamień.",
+    "orderLead": "Każdy ruch przebiega według tych samych zasad, w następującej kolejności:",
+    "order": {
+      "1": "Przesuń Krecika o jedno pole w wybranym kierunku.",
+      "2": "Jeśli to pole znajduje się poza planszą, ruch jest niedozwolony. <strong>Plansza nie zawija się na drugą stronę.</strong>",
+      "3": "Jeśli na tym polu znajduje się kamień, Krecik porusza się dalej w tym samym kierunku, aż dotrze do pierwszej wolnej norki. Jeśli taki skok wyprowadziłby go poza planszę, ruch jest niedozwolony i Krecik zostaje na miejscu.",
+      "4": "Pierwsza wolna norka, do której dotrze, jest miejscem, w którym <strong>ląduje</strong>.",
+      "5": "Jeśli ta norka jest wejściem do tunelu, Krecik natychmiast zostaje przeniesiony do jego wyjścia. <strong>Przechodzi tylko przez jeden tunel.</strong> Wyjście z tunelu nie uruchamia kolejnego tunelu, nawet jeśli dwa tunele się nakładają."
+    },
+    "p3": "Krecik po prostu przeskakuje nad kamieniami znajdującymi się na jego drodze. Tunel działa tylko wtedy, gdy Krecik rzeczywiście wyląduje na jego wejściu. Samo przeskoczenie nad wejściem do tunelu niczego nie powoduje.",
+    "walkthroughTitle": "Krótki przykład",
+    "walkthroughSetup": "Plansza 6×6. Start na <strong>B2</strong>. Kamień na <strong>C2</strong>. Tunel z <strong>D3 → F6</strong>.",
+    "walkthrough": {
+      "1": "<em>W prawo</em> — na C2 znajduje się kamień, więc Krecik go przeskakuje i ląduje na <strong>D2</strong>.",
+      "2": "<em>W dół</em> — ląduje na <strong>D3</strong>, wpada do tunelu i wychodzi na <strong>F6</strong>.",
+      "3": "<em>W dół</em> — ten ruch wyprowadziłby go poza planszę, więc Krecik zostaje na <strong>F6</strong>."
+    },
+    "walkthroughAnswer": "<em>Gdzie jest Krecik?</em> <strong>F6</strong>, po dwóch prawidłowo wykonanych ruchach.",
+    "p4": "Gdy ruch jest niedozwolony, plansza się potrząsa, a Krecik zostaje na swoim miejscu. Jeśli uczniowie mają zamknięte oczy, nauczyciel po prostu mówi im, że Krecik nie może poruszyć się w tym kierunku. Uczniowie muszą więc pozostawić go w tym samym miejscu w swoim wyobrażeniu."
+  },
+
+  "growing": {
+    "title": "Zwiększanie trudności",
+    "lead": "Poziom trudności zależy od tego, jak dużo informacji o ogrodzie uczniowie muszą utrzymać w pamięci, a nie od tego, jak szybko mówi nauczyciel.",
+    "steps": {
+      "1": "<strong>Otwarte oczy, pusta plansza 3×3</strong> — obserwuj ruchy Krecika i poznaj osiem kierunków oraz granice planszy.",
+      "2": "<strong>Zamknięte oczy, pusta plansza 3×3</strong> — zagraj pierwszą prawdziwą rundę. Zacznij od ruchów w górę, w dół, w lewo i w prawo, a później dodaj ruchy po przekątnej.",
+      "3": "<strong>Start blisko rogu</strong> — uczniowie muszą teraz pamiętać, kiedy ruch wyprowadziłby Krecika poza planszę.",
+      "4": "<strong>Dodaj jeden kamień</strong> — najpierw pokaż uczniom, jak działa przeskakiwanie, a później poproś ich, aby wyobrazili sobie ten ruch.",
+      "5": "<strong>Dodaj krótki rząd kamieni</strong> — Krecik może teraz przeskoczyć kilka norek albo zostać na miejscu, jeśli kamienie ciągną się aż do krawędzi planszy.",
+      "6": "<strong>Dodaj jeden tunel</strong> — uczniowie muszą teraz zapamiętać nagłe przeniesienie Krecika z jednej części planszy do drugiej.",
+      "7": "<strong>Połącz kamienie z tunelem</strong> — Krecik przeskakuje, ląduje, a następnie zostaje przeniesiony. W jednym ruchu działają teraz dwie zasady.",
+      "8": "<strong>Używaj większych plansz</strong> — zasady pozostają takie same, ale uczniowie muszą utrzymać w pamięci więcej informacji."
+    },
+    "p1": "Każdy nowy element najpierw pokaż przy włączonym trybie demonstracyjnym. Kiedy uczniowie zobaczą i zrozumieją nową zasadę, ukryj Krecika i poproś ich, aby śledzili jego ruchy z zamkniętymi oczami."
+  },
+
+  "board": {
+    "title": "Dlaczego plansza wygląda właśnie tak",
+    "lead": "Plansza została zaprojektowana tak, aby uczniowie mogli stworzyć sobie wyraźny obraz, który później łatwo odtworzą w wyobraźni po zamknięciu oczu.",
+
+    "holes": {
+      "title": "Ogród pełen norek",
+      "body": "Każde pole wygląda jak fragment trawy z ciemną norką pośrodku. Uczniowie nie śledzą po prostu pól na siatce — wyobrażają sobie, <em>w której norce znajduje się Krecik</em>."
+    },
+
+    "rocks": {
+      "title": "Kamienie są prawdziwymi przeszkodami",
+      "body": "Kamień leży na trawie i zasłania norkę pod nim. Krecik nie może się tam zatrzymać, więc musi go przeskoczyć. Dzięki temu obrazowi zasada ruchu jest łatwiejsza do zrozumienia i zapamiętania."
+    },
+
+    "wormholes": {
+      "title": "Tunele pokazują dwa końce tego samego przejścia",
+      "body": "Wejście wygląda jak kolorowy wir wciągający Krecika w dół. Pasujące do niego wyjście ma ten sam kolor, ale pokazuje ruch wychodzący z norki. Oznaczenie przy wejściu pokazuje, dokąd prowadzi tunel. Te same kolory ułatwiają rozpoznanie par — fioletowy łączy się z fioletowym, błękitny z błękitnym — i pomagają uczniom zapamiętać połączenie po zamknięciu oczu."
+    },
+
+    "coordinates": {
+      "title": "Współrzędne pozostają widoczne na polach",
+      "body": "Współrzędne pozostają widoczne, dopóki plansza nie stanie się na tyle duża, że zaczęłyby wprowadzać zbyt duży chaos wizualny. Gdy nauczyciel pyta <em>Gdzie jest Krecik?</em>, klasa potrzebuje prostego oznaczenia każdej pozycji, na przykład <em>F6</em>. Etykiety służą do podania odpowiedzi, a nie do rozwiązywania zadania podczas patrzenia na planszę."
+    },
+
+    "mole": {
+      "title": "Krecik jest bohaterem, a nie pionkiem",
+      "body": "Kiedy Krecik jest widoczny, przesuwa się pomiędzy sąsiednimi norkami. Gdy zostaje pokazany albo wychodzi z tunelu, <em>wyskakuje</em> na ekranie. Te dwa różne rodzaje ruchu pomagają pokazać różnicę między zwykłym przemieszczaniem się po ogrodzie a nagłym pojawieniem się w zupełnie innym miejscu."
+    },
+
+    "shake": {
+      "title": "Plansza potrząsa się po niedozwolonym ruchu",
+      "body": "Nauczyciel widzi, jak plansza się potrząsa, a uczniowie słyszą, że Krecik nie może poruszyć się w tym kierunku."
+    },
+
+    "panel": {
+      "title": "Panel sterowania można przesuwać",
+      "body": "Ogród jest najważniejszym elementem, który uczniowie powinni dokładnie obejrzeć przed zamknięciem oczu. Narzędzia do ustawiania planszy, przyciski kierunkowe i przycisk pokazujący Krecika znajdują się w ruchomym panelu, który nauczyciel może umieścić w takim miejscu na projektorze lub ekranie, aby jak najmniej przeszkadzał. Podczas gry z ukrytym Krecikiem na środku panelu kierunkowego widnieje znak ?. W trybie demonstracyjnym pojawia się tam ikona oka."
+    }
+  },
+
+  "controls": {
+    "title": "Sterowanie",
+    "lead": "Podczas gry:",
+    "items": {
+      "1": "Użyj panelu kierunkowego albo <strong>klawiszy strzałek</strong>, aby poruszać się w górę, w dół, w lewo i w prawo",
+      "2": "Użyj <strong>klawiatury numerycznej 1–9</strong>, aby poruszać się we wszystkich ośmiu kierunkach: 7/8/9, 4/6, 1/2/3",
+      "3": "Naciśnij <strong>R</strong>, aby pokazać Krecika — jest to ekranowy odpowiednik pytania <em>Gdzie jest Krecik?</em>"
+    },
+    "p1": "Ruchomy panel można przeciągnąć w inne miejsce. Gdy aktywny jest sam panel, klawisze strzałek przesuwają panel zamiast Krecika."
+  }
+}

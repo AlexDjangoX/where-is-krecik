@@ -1,0 +1,11 @@
+{
+  "LanguageSelector": {
+    "AccessibleName": "Language",
+    "SwitchToPolish": "Switch to Polish",
+    "SwitchToEnglish": "Switch to English",
+    "SwitchLanguage": "Switch language"
+  },
+  "MiniLanguageSelector": {
+    "toggleLanguage": "Toggle language"
+  }
+}

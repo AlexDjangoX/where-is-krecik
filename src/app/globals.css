@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -9,6 +10,14 @@
   --primary-foreground: hsl(210 40% 98%);
   --input: hsl(214.3 31.8% 91.4%);
   --ring: hsl(84.5 40% 28%);
+  --border: hsl(84.5 35% 78%);
+  --muted: hsl(84.5 40% 95%);
+  --muted-foreground: hsl(84.5 18% 32%);
+  --accent: hsl(84.5 45% 90%);
+  --accent-foreground: hsl(84.5 40% 18%);
+  --secondary: hsl(84.5 30% 94%);
+  --secondary-foreground: hsl(84.5 40% 20%);
+  --destructive: hsl(0 72% 42%);
   --radius: 0.5rem;
 }
 
@@ -19,6 +28,14 @@
   --primary-foreground: hsl(222.2 47.4% 11.2%);
   --input: hsl(217.2 32.6% 17.5%);
   --ring: hsl(84.5 55% 62%);
+  --border: hsl(84.5 18% 24%);
+  --muted: hsl(222.2 32% 14%);
+  --muted-foreground: hsl(84.5 22% 72%);
+  --accent: hsl(84.5 22% 18%);
+  --accent-foreground: hsl(84.5 40% 90%);
+  --secondary: hsl(217.2 32.6% 17.5%);
+  --secondary-foreground: hsl(210 40% 98%);
+  --destructive: hsl(0 62% 45%);
 }
 
 @theme inline {
@@ -28,6 +45,14 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
   --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);

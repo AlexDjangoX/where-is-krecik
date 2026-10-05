@@ -1,16 +1,23 @@
 import { hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 import { WhereIsKrecikGame } from "@/components/where-is-krecik/components/WhereIsKrecikGame";
-import type { Language } from "@/intl/constants";
 import { routing } from "@/intl/routing";
 
-export default async function HomePage(props: PageProps<"/[lang]">) {
-  const { lang } = await props.params;
-  const locale = hasLocale(routing.locales, lang)
-    ? (lang as Language)
-    : routing.defaultLocale;
-  setRequestLocale(locale);
+async function Home({ params }: Pick<PageProps<"/[lang]">, "params">) {
+  const { lang } = await params;
+  if (!hasLocale(routing.locales, lang)) {
+    notFound();
+  }
 
   return <WhereIsKrecikGame />;
+}
+
+export default function HomePage(props: PageProps<"/[lang]">) {
+  return (
+    <Suspense>
+      <Home params={props.params} />
+    </Suspense>
+  );
 }

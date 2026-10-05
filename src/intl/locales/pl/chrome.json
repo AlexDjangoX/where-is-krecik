@@ -1,7 +1,7 @@
 {
-  "language": "Język",
-  "switchToEnglish": "Angielski",
-  "switchToPolish": "Polski",
-  "switchToLight": "Włącz jasny motyw",
-  "switchToDark": "Włącz ciemny motyw"
+  "errorTitle": "Coś poszło nie tak",
+  "retry": "Spróbuj ponownie",
+  "notFoundTitle": "Nie ma takiej strony",
+  "notFoundBody": "Tej ścieżki nie ma w ogrodzie Krecika.",
+  "home": "Wróć do ogrodu"
 }

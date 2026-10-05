@@ -1,17 +1,9 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { useLayoutEffect } from "react";
 import type { Language } from "@/intl/constants";
 import { intlGetMessageFallback, intlOnError } from "@/intl/error-handling";
 import { NextIntlClientProvider } from "next-intl";
-
-function DocumentLangFromSegment({ locale }: { locale: string }) {
-  useLayoutEffect(() => {
-    document.documentElement.lang = locale;
-  }, [locale]);
-  return null;
-}
 
 type IntlClientShellProps = {
   locale: Language;
@@ -32,7 +24,6 @@ export function IntlClientShell({
       onError={intlOnError}
       getMessageFallback={intlGetMessageFallback}
     >
-      <DocumentLangFromSegment locale={locale} />
       {children}
     </NextIntlClientProvider>
   );

@@ -8,20 +8,24 @@ type KrecikMoleProps = {
   className?: string;
   /** Larger, celebratory look for the reveal panel. */
   celebrating?: boolean;
+  /** Hide from assistive tech when the mole is only decoration. */
+  decorative?: boolean;
 };
 
 /** Friendly cartoon mole, drawn as inline SVG so it scales with its cell. */
 export function KrecikMole({
   className,
   celebrating = false,
+  decorative = false,
 }: KrecikMoleProps) {
   const t = useTranslations("where-is-krecik");
 
   return (
     <svg
       viewBox="0 0 100 100"
-      role="img"
-      aria-label={t("mole.aria")}
+      role={decorative ? "presentation" : "img"}
+      aria-hidden={decorative || undefined}
+      aria-label={decorative ? undefined : t("mole.aria")}
       className={cn("h-full w-full drop-shadow-md", className)}
     >
       {/* paws */}

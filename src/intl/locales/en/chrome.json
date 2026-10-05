@@ -1,7 +1,7 @@
 {
-  "language": "Language",
-  "switchToEnglish": "English",
-  "switchToPolish": "Polish",
-  "switchToLight": "Switch to light mode",
-  "switchToDark": "Switch to dark mode"
+  "errorTitle": "Something went wrong",
+  "retry": "Try again",
+  "notFoundTitle": "We can't find that page",
+  "notFoundBody": "That path isn't in Krecik's garden.",
+  "home": "Back to the garden"
 }

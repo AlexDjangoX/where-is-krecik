@@ -1,0 +1,208 @@
+{
+  "button": "Philosophy",
+
+  "title": "Philosophy",
+
+  "description": "Why we play with our eyes closed, and how it works.",
+
+  "tocLabel": "In this guide",
+
+  "toc": {
+    "why": "Why we play this way",
+    "ritual": "Classroom routine",
+    "setup": "Set up a round",
+    "moves": "How Krecik moves",
+    "growing": "Build the challenge",
+    "board": "The board",
+    "controls": "Controls"
+  },
+
+  "intro": {
+    "p1": "This is a classroom game built around focus, visualisation, and spatial thinking. Students first watch Krecik move from hole to hole across the garden until they understand how the board works. Then they close their eyes, picture the garden in their minds, and follow his movements by listening.",
+    "p2": "After a set number of moves, the teacher asks: <strong>Where is Krecik?</strong>",
+    "p3": "The challenge happens in the students’ minds. They practise concentration, imagination, spatial thinking, and keeping track of a changing mental picture without looking. There is no timer, no score, and no winner. The class simply finds out who can still work out where Krecik is.",
+    "mole": "The mole is <link>Krtek</link> — <em>Krecik</em> in Polish — the little Czech cartoon mole who lives underground. The board is his garden, with grass, holes, rocks, and the occasional tunnel that sends him somewhere else."
+  },
+
+  "why": {
+    "title": "Why play this way",
+
+    "visualisation": {
+      "title": "Visualisation",
+      "body": "Closing their eyes turns the board from something students can see into something they have to remember. Instead of following a character on a screen, they build a picture in their minds and update it after every move."
+    },
+
+    "logic": {
+      "title": "Logic",
+      "body": "The garden follows a small set of consistent rules: eight directions, fixed edges, rocks to jump over, and tunnels that move Krecik from one hole to another. Students have to apply those rules from memory while they follow his path."
+    },
+
+    "mindfulness": {
+      "title": "Mindfulness and focus",
+      "body": "The task is simple and there are very few distractions: a voice, a sequence of directions, and a mole moving through an imagined garden. Students focus on one thing for a short period of time. If their attention drifts, they may lose track of Krecik. Bringing their attention back to <em>where is he now?</em> is part of the exercise."
+    },
+
+    "imagination": {
+      "title": "Imagination first, screen second",
+      "body": "The software supports the teacher. It keeps track of Krecik’s real position, prevents illegal moves, and reveals the answer when needed. The important work happens in the students’ imaginations before they look at the screen again."
+    }
+  },
+
+  "ritual": {
+    "title": "The classroom routine",
+
+    "open": {
+      "title": "Start with eyes open",
+      "p1": "Turn on <strong>Show Krecik on every move</strong> and let the class watch him move.",
+      "p2": "Students see him move from hole to hole, jump over rocks, and come out of wormholes. Watching these actions first helps them build a clear picture of the garden that they can later hold in their minds with their eyes closed. Demo mode is how students learn the game before playing it from memory.",
+      "p3": "For the first demonstration, use an empty 3×3 board. Add a rock or a tunnel only after the class can comfortably follow Krecik’s basic movements."
+    },
+
+    "close": {
+      "title": "Then close your eyes",
+      "lead": "Before the real round begins:",
+      "steps": {
+        "1": "Everyone looks at the board one last time — the starting hole, any rocks, and any wormholes.",
+        "2": "The teacher asks the students to <strong>close their eyes</strong> and picture the garden in their minds.",
+        "3": "Krecik is hidden on the screen by turning demo mode off. The board remains visible to the teacher, but the students no longer look at it.",
+        "4": "The teacher starts the round."
+      }
+    },
+
+    "listen": {
+      "title": "Listen and follow Krecik in your mind",
+      "p1": "The teacher presses each move and <strong>says the direction out loud</strong>: <em>up</em>, <em>down and right</em>, <em>left</em>. Students do not watch the controls. Instead, they move Krecik through the garden in their imaginations.",
+      "p2": "After every direction, students update their mental picture. Where is he now? Is there a rock in his way? Does the hole lead into a tunnel? If a move would take him off the board, he does not move and stays where he is.",
+      "p3": "This is the core of the game: hold the garden in your mind, update Krecik’s position, and resist the temptation to look."
+    },
+
+    "ask": {
+      "title": "“Where is Krecik?”",
+      "p1": "After a suitable number of moves — perhaps three on the first day and many more as students improve — the teacher asks the question.",
+      "p2": "Students open their eyes and say which hole they think Krecik is in, for example B3 or F6. The teacher then presses <strong>Reveal Krecik</strong>. Krecik appears in the hole he actually reached. The panel also shows his coordinate, the number of successful moves, and the route as a row of arrows.",
+      "p3": "The reveal is a way to check the class’s mental picture, not to rank students. A useful question is: <em>where did your picture stop matching the real path?</em> You can then replay the same round with demo mode on so everyone can see the route they were trying to follow."
+    }
+  },
+
+  "setup": {
+    "title": "Setting up a round",
+    "p1": "During setup, everyone can see Krecik. He begins in the centre hole — B2 on a 3×3 board. The teacher can:",
+    "actions": {
+      "1": "make the board larger or smaller, from 3×3 up to 10×10",
+      "2": "choose a different starting hole",
+      "3": "place rocks on holes",
+      "4": "create wormholes by clicking the entrance and then the exit"
+    },
+    "p2": "Rocks and wormholes are optional. The starting hole is marked with an amber ring so everyone knows exactly where Krecik begins.",
+    "p3": "Then close your eyes, turn demo mode off, and start the round.",
+    "againTitle": "Three ways to continue after the reveal",
+
+    "again": {
+      "replay": {
+        "button": "Replay game",
+        "keeps": "Keep the same board and the same starting position, then play the exact route again. This is especially useful with demo mode on so students can see the path they were following in their minds."
+      },
+
+      "round": {
+        "button": "New round",
+        "keeps": "Keep the same rocks and wormholes. The starting hole also stays the same unless you choose a different one."
+      },
+
+      "game": {
+        "button": "New game",
+        "keeps": "Start again with an empty 3×3 garden and Krecik in the centre."
+      }
+    }
+  },
+
+  "moves": {
+    "title": "How Krecik moves",
+    "p1": "Coordinates work like a spreadsheet: columns <strong>A–J</strong> run from left to right and rows <strong>1–10</strong> run from top to bottom. On a 3×3 board, B2 is the centre.",
+    "p2": "Krecik can move in eight directions: up, down, left, right, and the four diagonals. One press normally moves him one hole, unless a rock is in the way.",
+    "orderLead": "Every move follows the same rules, in this order:",
+    "order": {
+      "1": "Move one step in the chosen direction.",
+      "2": "If that position is outside the board, the move is invalid. <strong>The grid does not wrap around.</strong>",
+      "3": "If there is a rock there, continue moving in the same direction until Krecik reaches the first open hole. If the jump would take him off the board, the move is invalid and he stays where he is.",
+      "4": "The first open hole he reaches is where he <strong>lands</strong>.",
+      "5": "If that hole is a wormhole entrance, he immediately moves to its exit. <strong>Only one tunnel jump happens.</strong> Wormhole exits do not trigger another wormhole, even if two tunnels overlap."
+    },
+    "p3": "Krecik simply jumps over any rocks in his path. A wormhole only works if he actually lands on its entrance. Passing over a wormhole does nothing.",
+    "walkthroughTitle": "A short example",
+    "walkthroughSetup": "6×6 board. Start at <strong>B2</strong>. Rock on <strong>C2</strong>. Wormhole from <strong>D3 → F6</strong>.",
+    "walkthrough": {
+      "1": "<em>Right</em> — C2 contains a rock, so Krecik jumps over it and lands on <strong>D2</strong>.",
+      "2": "<em>Down</em> — he lands on <strong>D3</strong>, enters the wormhole, and comes out at <strong>F6</strong>.",
+      "3": "<em>Down</em> — that would take him off the board, so he stays at <strong>F6</strong>."
+    },
+    "walkthroughAnswer": "<em>Where is Krecik?</em> <strong>F6</strong>, after two successful moves.",
+    "p4": "When a move is invalid, the board shakes and Krecik stays where he is. If the students have their eyes closed, the teacher simply tells them that he cannot move in that direction. Students must then keep him in the same place in their mental picture."
+  },
+
+  "growing": {
+    "title": "Building the challenge",
+    "lead": "The difficulty comes from how much of the garden students have to hold in their minds, not from how quickly the teacher speaks.",
+    "steps": {
+      "1": "<strong>Eyes open, empty 3×3</strong> — watch Krecik move and learn the eight directions and the edges of the board.",
+      "2": "<strong>Eyes closed, empty 3×3</strong> — play the first real round. Begin with up, down, left, and right, then introduce the diagonals.",
+      "3": "<strong>Start near a corner</strong> — students now have to remember when a move would take Krecik off the board.",
+      "4": "<strong>Add one rock</strong> — introduce jumping first as something students can see, then ask them to imagine it.",
+      "5": "<strong>Add a short wall of rocks</strong> — Krecik may need to jump across several holes, or stay where he is if the rocks continue to the edge.",
+      "6": "<strong>Add one wormhole</strong> — students now have to remember a jump from one part of the board to another.",
+      "7": "<strong>Combine rocks and a wormhole</strong> — jump, land, then teleport. Two rules can now happen during a single move.",
+      "8": "<strong>Use larger boards</strong> — the rules stay the same, but students have more information to hold in their working memory."
+    },
+    "p1": "Introduce each new feature with demo mode on first. Once students have seen and understood the new rule, hide Krecik and ask them to follow it with their eyes closed."
+  },
+
+  "board": {
+    "title": "Why the board looks like this",
+    "lead": "The board is designed to give students a clear visual picture that they can later recreate in their minds with their eyes closed.",
+
+    "holes": {
+      "title": "A garden full of holes",
+      "body": "Each cell looks like a patch of grass with a dark hole in the middle. Students are not simply tracking squares on a grid; they are imagining <em>which hole Krecik is in</em>."
+    },
+
+    "rocks": {
+      "title": "Rocks are physical obstacles",
+      "body": "A rock sits on the grass and covers the hole beneath it. Krecik cannot stop there, so he has to jump over it. The image makes the movement rule easier to understand and remember."
+    },
+
+    "wormholes": {
+      "title": "Wormholes show two ends of the same tunnel",
+      "body": "The entrance looks like a coloured vortex pulling Krecik down. The matching exit uses the same colour but shows movement coming out of the hole. A badge on the entrance shows where the tunnel leads. Matching colours make each pair easy to recognise — violet connects to violet, sky connects to sky — and help students remember the connection after they close their eyes."
+    },
+
+    "coordinates": {
+      "title": "Coordinates stay on the cells",
+      "body": "Coordinates remain visible until the board becomes large enough for them to create too much visual clutter. When the teacher asks <em>Where is Krecik?</em>, the class needs a simple name for each position, such as <em>F6</em>. The labels are there to help students give the answer, not to solve the game while looking at the board."
+    },
+
+    "mole": {
+      "title": "Krecik is a character, not a game piece",
+      "body": "When Krecik is visible, he slides between nearby holes. When he is revealed or comes out of a wormhole, he <em>pops</em> into view. These different movements help show the difference between moving normally across the garden and suddenly appearing somewhere else."
+    },
+
+    "shake": {
+      "title": "The board shakes after an illegal move",
+      "body": "The teacher sees the board shake, while the class is told that Krecik cannot move in that direction."
+    },
+
+    "panel": {
+      "title": "The control panel floats",
+      "body": "The garden is the main thing students need to study before closing their eyes. Setup tools, direction controls, and the reveal button sit in a movable panel so the teacher can place it wherever it is least distracting on a projector or screen. In hidden play, a ? appears in the centre of the direction pad. In demo mode, it is replaced by an eye."
+    }
+  },
+
+  "controls": {
+    "title": "Controls",
+    "lead": "During play:",
+    "items": {
+      "1": "Use the direction pad, or the <strong>arrow keys</strong> for up, down, left, and right",
+      "2": "Use <strong>Numpad 1–9</strong> for all eight directions: 7/8/9, 4/6, 1/2/3",
+      "3": "Press <strong>R</strong> to reveal Krecik — the on-screen version of asking <em>Where is Krecik?</em>"
+    },
+    "p1": "The floating panel can be dragged to a different position. When the panel itself is focused, the arrow keys move the panel instead of Krecik."
+  }
+}
