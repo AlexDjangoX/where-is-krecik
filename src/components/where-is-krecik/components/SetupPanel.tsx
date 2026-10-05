@@ -142,7 +142,7 @@ export function SetupPanel({
                 className={cn(
                   "flex items-center gap-2.5 rounded-xl border px-2.5 py-2 text-left text-sm font-medium transition-all outline-none focus-visible:ring-3 focus-visible:ring-amber-400/70",
                   active
-                    ? "border-lime-700/20 bg-gradient-to-b from-lime-300 to-lime-400 text-lime-950 shadow-sm ring-3 ring-amber-400 ring-offset-2 ring-offset-lime-50 dark:from-lime-600 dark:to-lime-700 dark:text-lime-50 dark:ring-offset-lime-950"
+                    ? "border-lime-700/20 bg-linear-to-b from-lime-300 to-lime-400 text-lime-950 shadow-sm ring-3 ring-amber-400 ring-offset-2 ring-offset-lime-50 dark:from-lime-600 dark:to-lime-700 dark:text-lime-50 dark:ring-offset-lime-950"
                     : "border-lime-700/10 bg-white/70 text-lime-900 hover:bg-white dark:border-lime-300/10 dark:bg-lime-900/40 dark:text-lime-100 dark:hover:bg-lime-900/70",
                 )}
               >

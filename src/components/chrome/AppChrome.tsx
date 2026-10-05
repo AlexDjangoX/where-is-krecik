@@ -10,7 +10,7 @@ import type { Language } from "@/intl/constants";
 import { usePathname, useRouter } from "@/intl/navigation";
 
 const CHROME_ROW =
-  "mx-auto grid h-[5.5rem] w-full max-w-6xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-4 sm:h-24 sm:gap-3 sm:px-6";
+  "mx-auto grid h-22 w-full max-w-6xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-4 sm:h-24 sm:gap-3 sm:px-6";
 
 export function AppChrome() {
   const t = useTranslations("LanguageSelector");
@@ -49,7 +49,7 @@ export function AppChromeFallback() {
             aria-hidden
           />
           <div
-            className="h-8 w-24 rounded-full bg-gray-200 motion-safe:animate-pulse dark:bg-gray-900"
+            className="size-8 rounded-full bg-gray-200 motion-safe:animate-pulse dark:bg-gray-900"
             aria-hidden
           />
         </div>

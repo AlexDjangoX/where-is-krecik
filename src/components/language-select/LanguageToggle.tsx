@@ -31,7 +31,7 @@ const LANGUAGE_TOGGLE_SIZE = {
     flag: 14,
     flagLeft: "absolute left-1 z-10",
     flagRight: "absolute right-1 z-10",
-    knob: "absolute top-[3px] z-20 flex size-[18px] items-center justify-center overflow-hidden rounded-full shadow-md",
+    knob: "absolute top-0.75 z-20 flex size-4.5 items-center justify-center overflow-hidden rounded-full shadow-md",
     icon: 11,
   },
 } as const;

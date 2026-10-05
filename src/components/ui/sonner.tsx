@@ -22,9 +22,9 @@ const sonnerClassNames: NonNullable<
   content: "flex min-w-0 flex-1 flex-col gap-0.5",
   title: "font-semibold tracking-tight",
   description: "text-xs font-medium text-current/85",
-  icon: "shrink-0 [&_svg]:size-[1.125rem]",
+  icon: "shrink-0 [&_svg]:size-4.5",
   closeButton: [
-    "absolute top-0 left-0 z-[1] flex size-5 -translate-x-[35%] -translate-y-[35%] items-center justify-center",
+    "absolute top-0 left-0 z-1 flex size-5 -translate-x-[35%] -translate-y-[35%] items-center justify-center",
     "rounded-full border border-violet-200/70 bg-white/95 text-slate-600 shadow-sm",
     "hover:cursor-pointer hover:bg-violet-50 hover:text-slate-800",
     "dark:border-violet-500/35 dark:bg-slate-900/95 dark:text-slate-200 dark:hover:bg-slate-800 dark:hover:text-slate-50",

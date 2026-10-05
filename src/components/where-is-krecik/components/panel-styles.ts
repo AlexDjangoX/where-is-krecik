@@ -19,7 +19,7 @@ export const CELL =
 
 /** A dark hole, used as an icon well so panel icons echo the holes on the board. */
 export const HOLE =
-  "flex shrink-0 items-center justify-center rounded-full bg-gradient-to-b from-amber-900 to-stone-950 text-white shadow-[inset_0_2px_4px_rgba(0,0,0,0.6)]";
+  "flex shrink-0 items-center justify-center rounded-full bg-linear-to-b from-amber-900 to-stone-950 text-white shadow-[inset_0_2px_4px_rgba(0,0,0,0.6)]";
 
 export const HEADING =
   "text-lg font-semibold tracking-tight text-lime-950 dark:text-lime-50";

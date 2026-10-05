@@ -80,7 +80,7 @@ export function KrecikCell({
       onClick={interactive && onClick ? () => onClick(position) : undefined}
       tabIndex={interactive ? 0 : -1}
       className={cn(
-        "relative aspect-square w-full rounded-xl border border-lime-700/15 bg-gradient-to-b from-lime-300 to-lime-400 p-[8%] outline-none transition-transform dark:border-lime-300/10 dark:from-lime-700 dark:to-lime-800",
+        "relative aspect-square w-full rounded-xl border border-lime-700/15 bg-linear-to-b from-lime-300 to-lime-400 p-[8%] outline-none transition-transform dark:border-lime-300/10 dark:from-lime-700 dark:to-lime-800",
         interactive &&
           "cursor-pointer hover:scale-[1.03] hover:from-lime-200 hover:to-lime-300 focus-visible:ring-3 focus-visible:ring-amber-400/70 dark:hover:from-lime-600 dark:hover:to-lime-700",
         !interactive && "cursor-default",
@@ -104,7 +104,7 @@ export function KrecikCell({
                   entranceColor.fill,
                   "shadow-[0_0_14px_2px_rgba(255,255,255,0.35)]",
                 )
-              : "bg-gradient-to-b from-amber-900 to-stone-950 shadow-[inset_0_6px_10px_rgba(0,0,0,0.55)]",
+              : "bg-linear-to-b from-amber-900 to-stone-950 shadow-[inset_0_6px_10px_rgba(0,0,0,0.55)]",
           )}
         >
           {entranceColor ? (
@@ -118,7 +118,7 @@ export function KrecikCell({
       {isBlocked ? (
         <span
           aria-hidden
-          className="absolute inset-[12%] flex items-center justify-center rounded-[40%] bg-gradient-to-br from-stone-400 to-stone-600 shadow-md dark:from-stone-500 dark:to-stone-700"
+          className="absolute inset-[12%] flex items-center justify-center rounded-[40%] bg-linear-to-br from-stone-400 to-stone-600 shadow-md dark:from-stone-500 dark:to-stone-700"
         >
           <Mountain className="h-[55%] w-[55%] text-stone-800/70 dark:text-stone-900" />
         </span>

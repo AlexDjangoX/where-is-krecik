@@ -210,7 +210,7 @@ export function PhilosophyDocument() {
         <Prose>{t("setup.p3")}</Prose>
         <Subheading>{t("setup.againTitle")}</Subheading>
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[20rem] border-collapse text-left text-sm">
+          <table className="w-full min-w-80 border-collapse text-left text-sm">
             <tbody>
               {(["replay", "round", "game"] as const).map((key) => (
                 <tr

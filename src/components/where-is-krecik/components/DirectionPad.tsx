@@ -145,7 +145,7 @@ export function DirectionPad({
             return (
               <div
                 key="center"
-                className="flex size-16 items-center justify-center rounded-xl border border-lime-700/15 bg-gradient-to-b from-lime-300 to-lime-400 sm:size-[4.5rem] dark:border-lime-300/10 dark:from-lime-700 dark:to-lime-800"
+                className="flex size-16 items-center justify-center rounded-xl border border-lime-700/15 bg-linear-to-b from-lime-300 to-lime-400 sm:size-18 dark:border-lime-300/10 dark:from-lime-700 dark:to-lime-800"
                 aria-hidden
               >
                 <span
@@ -172,7 +172,7 @@ export function DirectionPad({
               className={cn(
                 SOLID_BUTTON,
                 BUTTON_LIME,
-                "size-16 rounded-xl sm:size-[4.5rem]",
+                "size-16 rounded-xl sm:size-18",
               )}
               style={{
                 gridColumn: (index % 3) + 1,

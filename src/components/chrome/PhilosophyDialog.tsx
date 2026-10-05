@@ -4,7 +4,6 @@ import { BookOpen } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { PhilosophyDocument } from "@/components/chrome/PhilosophyDocument";
-import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -20,17 +19,14 @@ export function PhilosophyDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button
+        <button
           type="button"
-          variant="outline"
-          size="sm"
           data-testid="philosophy-open"
           aria-label={t("button")}
-          className="h-8 rounded-full border-lime-300/80 bg-white/80 px-3 text-xs font-semibold tracking-wide text-lime-950 shadow-none hover:bg-lime-100 dark:border-lime-500/30 dark:bg-lime-950/60 dark:text-lime-100 dark:hover:bg-lime-900/70"
+          className="flex size-8 shrink-0 cursor-pointer items-center justify-center rounded-full border-0 bg-gray-200 text-lime-800 shadow-inner shadow-slate-500/65 transition-transform duration-150 ease-out hover:scale-105 active:scale-95 dark:bg-gray-900 dark:text-lime-200 dark:shadow-slate-600"
         >
-          <BookOpen className="size-3.5" />
-          {t("button")}
-        </Button>
+          <BookOpen className="size-4" strokeWidth={1.6} />
+        </button>
       </DialogTrigger>
       <DialogContent className="flex max-h-[min(90dvh,48rem)] w-[calc(100%-1.5rem)] max-w-2xl flex-col gap-0 overflow-hidden rounded-2xl border-lime-300/70 bg-lime-50 p-0 sm:max-w-2xl dark:border-lime-500/20 dark:bg-[#111827]">
         <DialogHeader className="shrink-0 border-b border-lime-300/60 px-6 py-4 pr-12 text-left dark:border-lime-500/20">

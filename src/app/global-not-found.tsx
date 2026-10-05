@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Sans_3 as SourceSans3 } from "next/font/google";
 
-import "./globals.css";
-
 const font = SourceSans3({
   subsets: ["latin", "latin-ext"],
   variable: "--font-source-sans",
@@ -14,19 +12,42 @@ export const metadata: Metadata = {
   description: "That path isn't in Krecik's garden.",
 };
 
+const pageStyle = {
+  margin: 0,
+  minHeight: "100vh",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: "0 1.5rem",
+  textAlign: "center",
+  background: "#ecfccb",
+  color: "#1a2e05",
+  fontFamily: "var(--font-source-sans), ui-sans-serif, system-ui, sans-serif",
+} as const;
+
 export default function GlobalNotFound() {
   return (
     <html lang="en" className={font.variable}>
-      <body className="flex min-h-screen flex-col items-center justify-center bg-lime-50 px-6 text-center antialiased dark:bg-[#111827]">
-        <h1 className="text-2xl font-semibold text-lime-950 dark:text-lime-50">
+      <body style={pageStyle}>
+        <h1 style={{ margin: 0, fontSize: "1.5rem" }}>
           We can&apos;t find that page / Nie ma takiej strony
         </h1>
-        <p className="mt-2 text-sm text-lime-900/70 dark:text-lime-100/70">
+        <p style={{ margin: "0.5rem 0 0", fontSize: "0.875rem", opacity: 0.7 }}>
           That path isn&apos;t in Krecik&apos;s garden.
         </p>
         <a
           href="/"
-          className="mt-6 rounded-full bg-lime-700 px-4 py-2 text-sm font-semibold text-white hover:bg-lime-800 dark:bg-lime-500 dark:text-lime-950"
+          style={{
+            marginTop: "1.5rem",
+            borderRadius: 999,
+            background: "#3f6212",
+            color: "#fff",
+            padding: "0.5rem 1rem",
+            fontSize: "0.875rem",
+            fontWeight: 600,
+            textDecoration: "none",
+          }}
         >
           Back to the garden / Wróć do ogrodu
         </a>
