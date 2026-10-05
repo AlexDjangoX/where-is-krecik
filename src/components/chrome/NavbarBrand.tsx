@@ -16,7 +16,10 @@ function NavbarMole({
   const peek = lean === "left" ? -6 : 6;
 
   return (
-    <span aria-hidden className="relative h-9 w-11 shrink-0 overflow-hidden sm:h-10 sm:w-12">
+    <span
+      aria-hidden
+      className="relative h-9 w-11 shrink-0 overflow-hidden sm:h-10 sm:w-12"
+    >
       <motion.span
         className="absolute bottom-0 left-1/2 block size-10 sm:size-11"
         initial={false}

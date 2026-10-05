@@ -49,7 +49,9 @@ export default function GlobalError({
           Something went wrong / Coś poszło nie tak
         </h1>
         {error.digest ? (
-          <p style={{ margin: "0.5rem 0 0", fontSize: "0.75rem", opacity: 0.6 }}>
+          <p
+            style={{ margin: "0.5rem 0 0", fontSize: "0.75rem", opacity: 0.6 }}
+          >
             {error.digest}
           </p>
         ) : null}
