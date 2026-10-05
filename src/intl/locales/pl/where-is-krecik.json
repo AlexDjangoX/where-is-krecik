@@ -1,0 +1,106 @@
+{
+  "Meta": {
+    "title": "Gdzie jest Krecik? | Gra na koncentrację",
+    "description": "Gra ze schowanym kretem: uczniowie śledzą w głowie ruchy Krecika po planszy, a nauczyciel odkrywa, gdzie się zatrzymał."
+  },
+  "page": {
+    "title": "Gdzie jest Krecik?",
+    "setupReady": "Krecik startuje z {coordinate}. Możesz zaczynać!",
+    "setupEmpty": "Wybierz norę startową Krecika, a potem rozpocznij rundę.",
+    "playingDemo": "Pokaz: patrzcie, jak Krecik się rusza i jak działają kamienie oraz tunele.",
+    "playingHidden": "Krecik się schował. Słuchajcie uważnie i śledźcie każdy ruch w głowie!",
+    "revealed": "Znaleźliście go?"
+  },
+  "toast": {
+    "invalidTitle": "Tędy Krecik nie przejdzie!",
+    "invalidDescription": "Ten ruch zabrałby go poza planszę."
+  },
+  "setup": {
+    "heading": "Ustaw planszę",
+    "intro": "Kamienie i tunele są opcjonalne — zacznij, kiedy będziesz gotowy.",
+    "boardSize": "Rozmiar planszy",
+    "smallerBoard": "Mniejsza plansza",
+    "biggerBoard": "Większa plansza",
+    "tool": "Narzędzie",
+    "startsAt": "Krecik startuje z",
+    "rocks": "Kamienie",
+    "wormholes": "Tunele",
+    "none": "Brak",
+    "startRound": "Rozpocznij rundę",
+    "placeFirst": "Najpierw postaw Krecika na planszy.",
+    "tools": {
+      "moleStart": {
+        "label": "Start Krecika",
+        "hint": "Krecik startuje w podświetlonej norze. Kliknij inną norę, żeby go przenieść — wszyscy widzą, skąd startuje."
+      },
+      "blocked": {
+        "label": "Zablokowane pole",
+        "hint": "Kliknij nory, żeby włożyć w nie kamień. Krecik przeskakuje kamienie. Kliknij ponownie, żeby usunąć."
+      },
+      "wormholeEntrance": {
+        "label": "Dodaj tunel",
+        "hint": "Kliknij norę, w której tunel się zaczyna. Kliknij istniejący tunel, żeby go usunąć."
+      },
+      "wormholeDestination": {
+        "label": "Wyjście z tunelu",
+        "hint": "Teraz kliknij, gdzie tunel wychodzi — dowolną inną norę na planszy."
+      }
+    }
+  },
+  "showToggle": {
+    "label": "Pokazuj Krecika przy każdym ruchu",
+    "demo": "Tryb pokazu — wszyscy mogą patrzeć, jak się rusza.",
+    "hidden": "Krecik zostaje ukryty, dopóki go nie odkryjesz."
+  },
+  "pad": {
+    "heading": "Rusz Krecikiem",
+    "demoHint": "Tryb pokazu — wszyscy widzą Krecika. Mów każdy ruch na głos, gdy go naciskasz.",
+    "hiddenHint": "Oczy zamknięte. Mów każdy ruch na głos, gdy go naciskasz.",
+    "controls": "Sterowanie ruchem",
+    "moves": "Ruchy",
+    "invalid": "Tędy Krecik nie przejdzie",
+    "moved": "Krecik się ruszył",
+    "ready": "Gotowe",
+    "reveal": "Odkryj Krecika",
+    "keys": "Strzałki lub klawiatura numeryczna 1–9, żeby ruszać · R, żeby odkryć"
+  },
+  "directions": {
+    "up": "W górę",
+    "upRight": "W górę i w prawo",
+    "right": "W prawo",
+    "downRight": "W dół i w prawo",
+    "down": "W dół",
+    "downLeft": "W dół i w lewo",
+    "left": "W lewo",
+    "upLeft": "W górę i w lewo"
+  },
+  "reveal": {
+    "wasAt": "Krecik był na",
+    "startedAt": "Start z {coordinate} · {moves}",
+    "moves": "{count, plural, one {# ruch} few {# ruchy} many {# ruchów} other {# ruchu}}",
+    "path": "Ścieżka",
+    "replay": "Powtórz grę",
+    "newRound": "Nowa runda",
+    "newGame": "Nowa gra",
+    "help": "Powtórka zaczyna tę samą rundę od {start}. Nowa runda zostawia planszę, a nowa gra czyści wszystko.",
+    "theStart": "początku"
+  },
+  "floating": {
+    "setup": "Ustawienia",
+    "playing": "Rusz Krecikiem",
+    "revealed": "Jest!",
+    "controls": "Sterowanie grą",
+    "dragHint": "Przeciągnij, żeby przesunąć · strzałki przesuwają panel",
+    "expand": "Rozwiń panel",
+    "collapse": "Zwiń panel"
+  },
+  "cell": {
+    "blocked": "zablokowane",
+    "wormholeTo": "tunel do {destination}",
+    "wormholeExit": "wyjście z tunelu",
+    "startsHere": "tu startuje Krecik"
+  },
+  "mole": {
+    "aria": "Krecik, kret"
+  }
+}

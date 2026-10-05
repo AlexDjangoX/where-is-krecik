@@ -1,0 +1,106 @@
+{
+  "Meta": {
+    "title": "Where is Krecik? | Classroom focus game",
+    "description": "A hidden-mole listening game: students track Krecik's moves on a grid in their heads, then the teacher reveals where he ended up."
+  },
+  "page": {
+    "title": "Where is Krecik?",
+    "setupReady": "Krecik starts at {coordinate}. Ready when you are!",
+    "setupEmpty": "Pick a starting hole for Krecik, then start the round.",
+    "playingDemo": "Demo: watch Krecik move and see how the rocks and wormholes work.",
+    "playingHidden": "Krecik is hiding. Listen carefully and follow every move in your head!",
+    "revealed": "Did you find him?"
+  },
+  "toast": {
+    "invalidTitle": "Krecik can't go that way!",
+    "invalidDescription": "That move would take him off the board."
+  },
+  "setup": {
+    "heading": "Set up the board",
+    "intro": "Rocks and wormholes are optional — start whenever you are ready.",
+    "boardSize": "Board size",
+    "smallerBoard": "Smaller board",
+    "biggerBoard": "Bigger board",
+    "tool": "Tool",
+    "startsAt": "Krecik starts at",
+    "rocks": "Rocks",
+    "wormholes": "Wormholes",
+    "none": "None",
+    "startRound": "Start round",
+    "placeFirst": "Place Krecik on the board first.",
+    "tools": {
+      "moleStart": {
+        "label": "Krecik's start",
+        "hint": "Krecik starts in the highlighted hole. Click another hole to move him — everyone can see where he starts."
+      },
+      "blocked": {
+        "label": "Blocked cell",
+        "hint": "Click holes to put a rock in them. Krecik leaps over rocks. Click again to remove."
+      },
+      "wormholeEntrance": {
+        "label": "Add wormhole",
+        "hint": "Click the hole where the wormhole starts. Click an existing wormhole to remove it."
+      },
+      "wormholeDestination": {
+        "label": "Wormhole exit",
+        "hint": "Now click where the wormhole comes out — any other hole on the board."
+      }
+    }
+  },
+  "showToggle": {
+    "label": "Show Krecik on every move",
+    "demo": "Demo mode — everyone can watch him move.",
+    "hidden": "Krecik stays hidden until you reveal him."
+  },
+  "pad": {
+    "heading": "Move Krecik",
+    "demoHint": "Demo mode — everyone can see Krecik. Say each move as you press it.",
+    "hiddenHint": "Eyes closed, everyone. Say each move out loud as you press it.",
+    "controls": "Movement controls",
+    "moves": "Moves",
+    "invalid": "Krecik can't go that way",
+    "moved": "Krecik moved",
+    "ready": "Ready",
+    "reveal": "Reveal Krecik",
+    "keys": "Arrow keys or numpad 1–9 to move · R to reveal"
+  },
+  "directions": {
+    "up": "Up",
+    "upRight": "Up and right",
+    "right": "Right",
+    "downRight": "Down and right",
+    "down": "Down",
+    "downLeft": "Down and left",
+    "left": "Left",
+    "upLeft": "Up and left"
+  },
+  "reveal": {
+    "wasAt": "Krecik was at",
+    "startedAt": "Started at {coordinate} · {moves}",
+    "moves": "{count, plural, one {# move} other {# moves}}",
+    "path": "The path",
+    "replay": "Replay game",
+    "newRound": "New round",
+    "newGame": "New game",
+    "help": "Replay runs the same round again from {start}. New round keeps the board; new game clears everything.",
+    "theStart": "the start"
+  },
+  "floating": {
+    "setup": "Set up",
+    "playing": "Move Krecik",
+    "revealed": "Found him!",
+    "controls": "Game controls",
+    "dragHint": "Drag to move · arrow keys nudge",
+    "expand": "Expand panel",
+    "collapse": "Collapse panel"
+  },
+  "cell": {
+    "blocked": "blocked",
+    "wormholeTo": "wormhole to {destination}",
+    "wormholeExit": "wormhole exit",
+    "startsHere": "Krecik starts here"
+  },
+  "mole": {
+    "aria": "Krecik the mole"
+  }
+}
